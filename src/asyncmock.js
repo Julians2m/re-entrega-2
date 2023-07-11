@@ -1,8 +1,8 @@
 const misProductos = [
-    { id: "1", nombre: "Tornado 250CC", precio: 5000, stock:10, img:"../public/moto1.jpg", idCat: "2" },
-    { id: "2", nombre: "XR 150", precio: 2000, stock:10, img: "../public/Moto2.jpg", idCat: "2" },
-    { id: "3", nombre: "CB Twister 250CC", precio: 1800, stock:5, img: "../public/moto3.jpg", idCat: "3" },
-    { id: "4", nombre: "CB Twister 300CC", precio: 9000, stock:10, img: "../public/moto4.jpg", idCat: "3" },
+    { id: "1", nombre: "Tornado 250CC", precio: 5000, stock:10, img:"/moto1.jpg", idCat: "2" },
+    { id: "2", nombre: "XR 150", precio: 2000, stock:10, img: "/Moto2.jpg", idCat: "2" },
+    { id: "3", nombre: "CB Twister 250CC", precio: 1800, stock:5, img: "/moto3.jpg", idCat: "3" },
+    { id: "4", nombre: "CB Twister 300CC", precio: 9000, stock:10, img: "/moto4.jpg", idCat: "3" },
 ]
 
 export const getProductos = () => {
