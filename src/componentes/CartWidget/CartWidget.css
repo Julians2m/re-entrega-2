@@ -1,0 +1,15 @@
+.imgCarrito {
+    width: 2rem;
+}
+
+@media (max-width: 768px) {
+    .imgCarrito {
+    width: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .imgCarrito {
+    width: 2rem;
+    }
+}
