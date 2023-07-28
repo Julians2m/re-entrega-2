@@ -1,56 +1,57 @@
-.cardProducto {
-    background-color: #BCBD8B;
-    border-radius: 10px;
-    width: 15rem;
-    padding: 1rem;
-    margin: 1rem;
+
+.contenedorProductos {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+  }
 
-.imgProducto {
-    width: 150px;
-    object-fit: contain;
-}
+  .cardProducto {
+    width: 250px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .cardProducto:hover {
+    transform: translateY(-5px);
+  }
 
-.btnProducto {
-    background-color: #373d20;
-    color: white;
-    font-size: 1.2rem;
-    width: 8rem;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-}
+  .imgProducto {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
 
-@media (max-width: 768px) {
-    .cardProducto {
-    width: 12rem;
-    margin: 0.5rem;
-    }
-    
-    .imgProducto {
-    width: 100px;
-    }
-    
-    .btnProducto {
-    width: 6rem;
-    }
-}
-@media (max-width: 480px) {
-    .cardProducto {
-    width: 10rem;
-    margin: 0.3rem;
-    padding: 0.5rem;
-    }
-    
-    .imgProducto {
-    width: 80px;
-    }
-    
-    .btnProducto {
-    width: 5rem;
-    font-size: 1rem;
-    }
-}
+  .cardProducto h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .cardProducto p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  .cardProducto a {
+    display: block;
+    background-color: #32cd32;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cardProducto a:hover {
+    background-color: #2e8b2e;
+  }
+  

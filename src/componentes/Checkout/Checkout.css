@@ -1,0 +1,85 @@
+
+.Checkout {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+.Logo {
+    display: block;
+    max-width: 120px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+  .Checkout form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-group {
+    width: 60%; 
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 18px;
+    color: #444;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px; 
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: #32cd32;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .form-group input[type="submit"]:hover {
+    background-color: #2e8b2e;
+  }
+
+  .error-message {
+    color: #e63946;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .order-id {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #2e8b57;
+    font-weight: bold;
+  }
+
+@media screen and (max-width: 480px) {
+    .Checkout {
+    padding: 10px;
+    }
+  
+    .form-group input[type="submit"] {
+      font-size: 16px;
+      padding: 8px 15px;
+    }
+  }
+  
